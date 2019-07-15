@@ -1,0 +1,173 @@
+@media screen and (max-width:767px) {
+	header {
+		background: #ffcc32;
+	}
+
+	.glassy-art .art-col {
+		width: 320px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.glassy-art .art-col .col-work {
+		left: 5%;
+		bottom: 50px;
+		z-index: 1;
+	}
+
+	.glassy-art .art-col .col-life {
+		right: 65px;
+		bottom: 110px;
+		z-index: 1;
+	}
+
+	.glassy-art .art-col h3 {
+		font-size: 30px;
+	}
+
+	.we-are .glassy-art, .dig-wrap .glassy-art, .tale-wrap .glassy-art, .contact-wrap .glassy-art {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.glassy-art .art-dec h2 {
+		font-size: 130px;
+	}
+
+	.glassy-art .art-dec h2 span {
+		font-size: 16px;
+		right: 20px;
+	}
+
+	.glassy-art .art-dec h4 {
+		font-size: 16px;
+	}
+
+	.glassy-art .art-dec p {
+		font-size: 12px;
+	}
+
+	.glassy-art .art-dec h4 img {
+		margin-left: 10px;
+		width: 40%;
+	}
+
+	.glassy-art .animate-items .item-bee.down {
+		width: 30%;
+		top: 10px;
+		right: 20px;
+	}
+
+	.glassy-art .animate-items .item-bee.up {
+		top: -60px;
+		right: 130px;
+		width: 30%;
+	}
+
+	.home-banner {
+		height: 80vh;
+	}
+
+	.we-are, .dig-wrap, .tale-wrap, .contact-wrap {
+		height: auto;
+		padding: 120px 15px;
+	}
+
+	.dig-wrap .glassy-art .art-dec h4 {
+		margin-left: 20px;
+	}
+
+	.dig-wrap .glassy-art .art-dec p {
+		margin-left: 20px;
+	}
+
+	.dig-wrap .glassy-art .art-dec img {
+		width: 30px;
+	}
+
+	.dig-wrap .glassy-art .art-dec a {
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+	.glassy-art .animate-items .tool {
+		top: 47px;
+		right: 0px;
+		width: 40%;
+	}
+
+	.glassy-art .art-dec h5 {
+		font-size: 60px;
+	}
+
+	.tale-wrap .glassy-art .art-dec h4 {
+		margin-left: 20px;
+	}
+
+	.tale-wrap .glassy-art .art-dec p {
+		margin-left: 20px;
+		position: relative;
+	}
+
+	.tale-wrap .glassy-art .art-dec img {
+		width: 30px;
+	}
+
+	.tale-wrap .glassy-art .art-dec a {
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+	.tale-wrap .glassy-art .art-dec p {
+		position: relative;
+		bottom: 0;
+	}
+
+	.glassy-art .animate-items .tool {
+		top: 47px;
+		right: 0px;
+		width: 40%;
+	}
+
+	.glassy-art .animate-items .fairy {
+		position: absolute;
+		top: -100px;
+		right: 0;
+		width: 50%;
+	}
+
+	.glassy-art .animate-items .fairy img {
+		width: 40%;
+		margin-left: auto;
+	}
+
+	.contact-wrap .glassy-art .art-dec h4 {
+		margin-left: 20px;
+	}
+
+	.contact-wrap .glassy-art .art-dec h2 {
+		font-size: 80px;
+	}
+
+	.contact-wrap .glassy-art .art-dec p {
+		margin-left: 20px;
+		position: relative;
+	}
+
+	.contact-wrap .glassy-art .art-dec img {
+		width: 30px;
+	}
+
+	.contact-wrap .glassy-art .art-dec a {
+		margin-top: 0px;
+		margin-left: 20px;
+	}
+
+	.glassy-art .animate-items .burger {
+		position: absolute;
+		top: 10px;
+		right: -30px;
+		width: 50%;
+	}
+
+}
