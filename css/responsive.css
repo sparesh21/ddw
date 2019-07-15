@@ -171,3 +171,146 @@
 	}
 
 }
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+	header {
+		background: #ffcc32;
+	}
+
+	.glassy-art .art-dec h2 {
+		font-size: 170px;
+	}
+
+	.glassy-art .art-dec h2 span {
+		font-size: 16px;
+		right: 40px;
+	}
+
+	.glassy-art .art-dec h4 {
+		font-size: 30px;
+	}
+
+	.glassy-art .art-dec p {
+		font-size: 16px;
+	}
+
+	.glassy-art .art-dec h4 img {
+		margin-left: 10px;
+		width: 40%;
+	}
+
+	.glassy-art .animate-items .item-bee.down {
+		width: 30%;
+		top: 10px;
+		right: 20px;
+	}
+
+	.glassy-art .animate-items .item-bee.up {
+		top: -60px;
+		right: 130px;
+		width: 30%;
+	}
+
+	.we-are, .dig-wrap, .tale-wrap, .contact-wrap {
+		height: auto;
+		padding: 120px 15px;
+	}
+
+	.dig-wrap .glassy-art .art-dec h4 {
+		margin-left: 20px;
+	}
+
+	.dig-wrap .glassy-art .art-dec p {
+		margin-left: 20px;
+	}
+
+	.dig-wrap .glassy-art .art-dec img {
+		width: 30px;
+	}
+
+	.dig-wrap .glassy-art .art-dec a {
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+	.glassy-art .animate-items .tool {
+		top: 47px;
+		right: 0px;
+		width: 40%;
+	}
+
+	.glassy-art .art-dec h5 {
+		font-size: 60px;
+	}
+
+	.tale-wrap .glassy-art .art-dec h4 {
+		margin-left: 20px;
+	}
+
+	.tale-wrap .glassy-art .art-dec p {
+		margin-left: 20px;
+		position: relative;
+	}
+
+	.tale-wrap .glassy-art .art-dec img {
+		width: 30px;
+	}
+
+	.tale-wrap .glassy-art .art-dec a {
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+	.tale-wrap .glassy-art .art-dec p {
+		position: relative;
+		bottom: 0;
+	}
+
+	.glassy-art .animate-items .tool {
+		top: 40px;
+		right: -80px;
+		width: 60%;
+	}
+
+	.glassy-art .animate-items .fairy {
+		position: absolute;
+		top: -120px;
+		right: 0;
+		width: 50%;
+	}
+
+	.glassy-art .animate-items .fairy img {
+		width: 34%;
+		margin-left: auto;
+	}
+
+	.contact-wrap .glassy-art .art-dec h4 {
+		margin-left: 20px;
+	}
+
+	.contact-wrap .glassy-art .art-dec h2 {
+		font-size: 80px;
+	}
+
+	.contact-wrap .glassy-art .art-dec p {
+		margin-left: 20px;
+		position: relative;
+	}
+
+	.contact-wrap .glassy-art .art-dec img {
+		width: 30px;
+	}
+
+	.contact-wrap .glassy-art .art-dec a {
+		margin-top: 0px;
+		margin-left: 20px;
+	}
+
+	.glassy-art .animate-items .burger {
+		position: absolute;
+		top: 10px;
+		right: -30px;
+		width: 50%;
+	}
+
+}
