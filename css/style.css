@@ -437,3 +437,55 @@ header nav.container {
 .work-details-container {
 	padding-top: 80px;
 }
+
+.details-panel {
+	padding: 120px 0;
+}
+
+.client-heading {
+	border-bottom: 1.6px solid #ffcc32;
+	padding-bottom: 16px;
+	margin-bottom: 20px;
+}
+
+.client-heading h4 {
+	color: #000;
+	font-size: 30px;
+	font-family: 'AvenirNextLTPro-Heavy';
+}
+
+.client-details {
+	display: flex;
+}
+
+.client-details .col-l {
+	padding-right: 60px;
+}
+
+.client-details .col-r p {
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+.client-details .col-r h3 {
+	font-size: 18px;
+	margin-bottom: 16px;
+	color: #000;
+	font-family: 'AvenirNextLTPro-Heavy';
+}
+
+.client-details ul li {
+	margin-bottom: 21px;
+}
+
+.client-details p {
+	font-size: 18px;
+}
+
+.client-details .col-l {
+	width: 30%;
+}
+
+.client-details .col-r {
+	width: 70%;
+}

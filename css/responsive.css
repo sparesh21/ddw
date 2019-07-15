@@ -345,4 +345,26 @@
 		height: 280px;
 	}
 
+	.client-details {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.client-details .col-l {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.client-details .col-r {
+		width: 100%;
+	}
+
+	.details-panel {
+		padding-top: 60px;
+	}
+
+	.work-details-container {
+		padding-top: 62px;
+	}
+
 }
