@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/jquery.pagepiling.css"  />
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -12,104 +13,109 @@
   <body>
     <header>
       <nav class="container">
-        <div class="logo" data-aos="fade-left">
+        <div class="logo" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
           <a href="javascript:void(0);">
             <img src="images/logo.png" alt="logo">
           </a>
         </div>
-        <div class="menu-btn" data-aos="fade-right">
+        <div class="menu-btn" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="600">
           <a href="javascript:void(0);">
             <img src="images/menu-icon.png" alt="menu">
           </a>
         </div>
       </nav>
     </header>
-    <section class="home-banner">
-      <div class="glassy-art">
-        <div class="art-col">
-          <div class="col-work" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">
-            <h3>work</h3>
-          </div>
-          <div class="col-life" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
-            <h3>life</h3>
-          </div>
-          <img src="images/art/glassy.png" alt="glassy" data-aos="zoom-in">
-        </div>
-      </div>
-    </section>
-    <section class="we-are">
-      <div class="glassy-art">
-        <div class="art-dec" data-aos="fade-up" data-aos-duration="800">
-          <h2>We <span>are</span></h2>
-          <h4>Small. <br>Spry. <br>Grounded. <a href="javascript:void(0);"> <img src="images/arrow-point.png" alt="arrow"></a></h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div class="animate-items">
-          <div class="item-bee up" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="600">
-            <img src="images/art/bee1.png" alt="bee">
-          </div>
-          <div class="item-bee down" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="800">
-            <img src="images/art/bee2.png" alt="bee">
+    <main id="pagepiling">
+      <section class="section home-banner" id="page1">
+        <div class="glassy-art">
+          <div class="art-col">
+            <div class="col-work" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">
+              <h3>work</h3>
+            </div>
+            <div class="col-life" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+              <h3>life</h3>
+            </div>
+            <img src="images/art/glassy.png" alt="glassy" data-aos="zoom-in">
           </div>
         </div>
-      </div>
-    </section>
-    <section class="dig-wrap">
-      <div class="glassy-art">
-        <div class="art-dec" data-aos="fade-up" data-aos-duration="800">
-          <h2>Dig</h2>
-          <h4>Turn over. Break up.  <br>Remove. Unearth.<br>Discover. Learn. <br>Poke. Prod. Loosen.</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <a href="javascript:void(0);"> <img src="images/arrow-point.png" alt="arrow"></a>
-        </div>
-        <div class="animate-items">
-          <div class="tool" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="600">
-            <img src="images/art/dig.png" alt="dig">
+      </section>
+      <section class="section we-are" id="page2">
+        <div class="glassy-art">
+          <div class="art-dec" data-aos="fade-up" data-aos-duration="800">
+            <h2>We <span>are</span></h2>
+            <h4>Small. <br>Spry. <br>Grounded. <a href="javascript:void(0);"> <img src="images/arrow-point.png" alt="arrow"></a></h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="animate-items">
+            <div class="item-bee up" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="600">
+              <img src="images/art/bee1.png" alt="bee">
+            </div>
+            <div class="item-bee down" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="800">
+              <img src="images/art/bee2.png" alt="bee">
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="tale-wrap">
-      <div class="glassy-art">
-        <div class="art-dec" data-aos="fade-up" data-aos-duration="800">
-          <h5>Tell</h5>
-          <h2>tales.</h2>
-          <h4>Brand stories. <br>Narratives. We <br>tell then well. <br>Tell them loud.</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <a href="javascript:void(0);"> <img src="images/arrow-point.png" alt="arrow"></a>
-        </div>
-        <div class="animate-items">
-          <div class="fairy" data-aos="fade-down" data-aos-easing="ease" data-aos-delay="600">
-            <img src="images/art/fairy.png" alt="fairy">
+      </section>
+      <section class="section dig-wrap" id="page3">
+        <div class="glassy-art">
+          <div class="art-dec" data-aos="fade-up" data-aos-duration="800">
+            <h2>Dig</h2>
+            <h4>Turn over. Break up.  <br>Remove. Unearth.<br>Discover. Learn. <br>Poke. Prod. Loosen.</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="javascript:void(0);"> <img src="images/arrow-point.png" alt="arrow"></a>
+          </div>
+          <div class="animate-items">
+            <div class="tool" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="600">
+              <img src="images/art/dig.png" alt="dig">
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="contact-wrap">
-      <div class="glassy-art" data-aos="fade-up">
-        <div class="art-dec" data-aos="fade-up" data-aos-duration="800">
-          <h2>Say hi?</h2>
-          <h4>Send us a<br>note or <br>drop in.  <a href="javascript:void(0);"> <img src="images/arrow-point-w.png" alt="arrow"></a></h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div class="animate-items">
-          <div class="burger" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="600">
-            <img src="images/art/burger.png" alt="burger">
+      </section>
+      <section class="section tale-wrap" id="page4">
+        <div class="glassy-art">
+          <div class="art-dec" data-aos="fade-up" data-aos-duration="800">
+            <h5>Tell</h5>
+            <h2>tales.</h2>
+            <h4>Brand stories. <br>Narratives. We <br>tell then well. <br>Tell them loud.</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="javascript:void(0);"> <img src="images/arrow-point.png" alt="arrow"></a>
+          </div>
+          <div class="animate-items">
+            <div class="fairy" data-aos="fade-down" data-aos-easing="ease" data-aos-delay="600">
+              <img src="images/art/fairy.png" alt="fairy">
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section class="section contact-wrap" id="page5">
+        <div class="glassy-art" data-aos="fade-up">
+          <div class="art-dec" data-aos="fade-up" data-aos-duration="800">
+            <h2>Say hi?</h2>
+            <h4>Send us a<br>note or <br>drop in.  <a href="javascript:void(0);"> <img src="images/arrow-point-w.png" alt="arrow"></a></h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="animate-items">
+            <div class="burger" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="600">
+              <img src="images/art/burger.png" alt="burger">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Optional JavaScript -->
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.flip.min.js"></script>
+    <script src="js/jquery.pagepiling.js"></script>
     <script src="js/aos.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/custom.js"></script>
   </body>
 </html>

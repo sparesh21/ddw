@@ -30,7 +30,15 @@
         <div class="work-banner" data-aos="fade-up">
           <div class="banner-content">
             <h2>work</h2>
-            <h4>Brand Identity. <br>Communication Strategy. <br>Design. <br>Digital & Social. <br>UI/UX.
+             <h4>
+                <ul id="filterOptions" data-aos="zoom-in" data-aos-duration="1000">
+                  <!-- <li class="active"><a href="#" class="all">All</a></li> -->
+                  <li><a href="#" class="brand">Brand Identity</a></li>
+                  <li><a href="#" class="Communication">Communication Strategy.</a></li>
+                  <li><a href="#" class="design">Design</a></li>
+                  <li><a href="#" class="digital">Digital & Social.</a></li>
+                  <li><a href="#" class="ui">UI/UX.</a></li>
+                </ul>
             </h4>
           </div>
           <div class="banner-art">
@@ -41,8 +49,15 @@
     </section>
     <div class="work-panel">
       <div class="container">
-        <div class="work-listing">
-          <div class="work-items" data-aos="zoom-in" data-aos-duration="1000">
+        <!-- <ul id="filterOptions" data-aos="zoom-in" data-aos-duration="1000">
+          <li class="active"><a href="#" class="all">All</a></li>
+          <li><a href="#" class="card1">Card1</a></li>
+          <li><a href="#" class="card2">Card2</a></li>
+          <li><a href="#" class="card3">Card3</a></li>
+          <li><a href="#" class="card4">Card4</a></li>
+        </ul> -->
+        <div class="work-listing" id="ourHolder" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="work-items item brand ui all" >
               <div class="front">
                   <img src="images/work/card1.jpg" alt="card">
               </div>
@@ -55,7 +70,7 @@
                 </div>
               </div>
           </div>
-          <div class="work-items" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="work-items item Communication all">
               <div class="front">
                   <img src="images/work/card2.jpg" alt="card">
               </div>
@@ -68,7 +83,7 @@
                 </div>
               </div>
           </div>
-          <div class="work-items" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="work-items item design all">
               <div class="front">
                   <img src="images/work/card3.jpg" alt="card">
               </div>
@@ -81,7 +96,7 @@
                 </div>
               </div>
           </div>
-          <div class="work-items" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="work-items item digital all">
               <div class="front">
                   <img src="images/work/card4.jpg" alt="card">
               </div>
@@ -99,8 +114,9 @@
     </div>
     <!-- Optional JavaScript -->
     <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/jquery.flip.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/custom.js"></script>
+      <script src="js/jquery.flip.min.js"></script>
+      <script src="js/aos.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/custom.js"></script>
   </body>
 </html>

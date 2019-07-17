@@ -131,7 +131,7 @@ header nav.container {
 }
 
 .glassy-art .art-col {
-	width: 75%;
+	width: 40%;
 	margin: 0 auto;
 	position: relative;
 }
@@ -271,7 +271,7 @@ header nav.container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 100px 15px;
+	padding: 60px 15px;
 	overflow: hidden;
 }
 
@@ -379,6 +379,7 @@ header nav.container {
 	font-weight: 900;
 	color: #000;
 	position: relative;
+	margin-left: 55px;
 }
 
 .work-banner .banner-art {
@@ -449,6 +450,7 @@ header nav.container {
 
 .details-panel {
 	padding: 120px 0;
+	height: 100vh;
 }
 
 .client-heading {
@@ -497,4 +499,87 @@ header nav.container {
 
 .client-details .col-r {
 	width: 70%;
+	height: 300px;
+	overflow-y: scroll;
+}
+
+ul#filterOptions a {
+	color: #000;
+}
+
+.details-slider .slick-dots {
+	position: absolute;
+	bottom: auto;
+	display: block;
+	width: auto;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.details-slider .slick-dots li {
+	display: block;
+}
+
+.details-slider .slick-dots li button::before {
+	font-size: 50px;
+	color: #fff;
+}
+
+.details-slider .slick-dots li.slick-active button:before {
+	color: #fff;
+}
+
+.details-slider p {
+	color: #fff;
+	font-size: 16px;
+}
+
+.details-work-panel {
+	margin: 100px 0;
+}
+
+.detials-video {
+	margin-bottom: 100px;
+}
+
+.w-banner img {
+	height: 100vh;
+	width: 100%;
+	object-fit: cover;
+}
+
+.details-slider {
+	background: black;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.slider-list p {
+	color: #fff;
+}
+
+.slider-content {
+	padding: 20px;
+}
+
+.slider-con-img img {
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.pp-easing {
+	-webkit-transition: all 3000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
+	-moz-transition: all 3000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
+	-o-transition: all 3000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
+	transition: all 3000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);		    /* custom */
+	-webkit-transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
+	-moz-transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
+	-o-transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
+	transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);		    /* custom */
 }

@@ -366,5 +366,12 @@
 	.work-details-container {
 		padding-top: 62px;
 	}
-
+#filterOptions li{
+	padding:0 5px;
+}
+}
+@media screen and (max-width:400px){
+.glassy-art .art-dec h2 {
+    font-size: 115px;
+}
 }
