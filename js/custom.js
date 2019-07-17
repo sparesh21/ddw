@@ -1,20 +1,20 @@
+AOS.init();
 $(document).ready(function() {
-  AOS.init();
+  $.scrollify({
+    section: ".page-panel",
+    scrollbars: false,
+    easing: "swing",
+    scrollSpeed: 1000,
+    updateHash: false,
+    afterRender: function() {
+
+    }
+  });
+
   $(".work-items").flip({
     trigger: 'click',
     speed: 1000
   });
-  setTimeout(function() {
-    $('#pagepiling').pagepiling({
-      menu: '#menu',
-      afterLoad: function(anchorLink, index) {
-
-      },
-      afterRender: function() {
-        AOS.init();
-      }, // anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
-    });
-  }, 1000)
 
   $('.details-slider').slick({
     infinite: true,
@@ -24,6 +24,7 @@ $(document).ready(function() {
     arrows: false,
     vertical: true
   });
+
   $('#filterOptions li a').click(function() {
     // fetch the class of the clicked item
     var ourClass = $(this).attr('class');
